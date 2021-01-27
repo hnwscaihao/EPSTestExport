@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fieldMapping>
+    <!-- excel中字段 -->
+    <importType name="Test Case Export" type="Test Suite" mergeStep="true"
+                structure="false"><!-- Test Case & Test Step & Test Result --><!--  -->
+        <excelField name="测试用例ID" type="Test Case" field="ID" category="Test Case"/>
+        <excelField name="测试用例产生方法" type="Test Case" field="Methods for deriving test cases" category="Test Case"/>
+        <excelField name="测试方法" type="Test Case" field="Test methods" category="Test Case"/>
+        <excelField name="测试点描述" type="Test Case" field="Text" category="Test Case"/>
+        <excelField name="预置条件" type="Test Case" field="Precondition" category="Test Case"/>
+        <excelField name="监控数据" type="Test Case" field="Monitoring Data" category="Test Case"/>
+        <excelField name="用例描述ID" type="Test Case" field="ID" category="Test Step"/>
+        <excelField name="用例描述" type="Test Case" field="Description" category="Test Step"/>
+        <excelField name="预期结果" type="Test Case" field="Expected Result" category="Test Step"/>
+        <excelField name="测试结果记录" type="Test Result" field="Cycle Verdict" category="Test Step"/>
+        <excelField name="测试结论" type="Test Result" field="Verdict" category="Test Result"/>
+        <excelField name="缺陷ID" type="Test Result" field="ID" category="Defect"/>
+        <excelField name="缺陷类型" type="Test Result" field="Defect Type" category="Defect"/>
+        <excelField name="后续措施" type="Test Result" field="Solution" category="Defect"/>
+        <excelField name="测试人员" type="Test Result" field="Tester" category="Test Result"/>
+        <excelField name="测试日期" type="Test Result" field="Test Date" category="Test Result"/>
+        <excelField name="备注" type="Test Result" field="Annotation" category="Test Result"/>
+        <excelField name="任务ID" type="Test Session" field="ID"/>
+        <excelField name="测试对象" type="Test Session" field="Target Object"/>
+        <excelField name="测试目标" type="Test Session" field="Test Objective"/>
+        <excelField name="软件版本" type="Test Session" field="Software Version"/>
+        <excelField name="测试环境" type="Test Session" field="Test Environment"/>
+        <excelField name="测试工具" type="Test Session" field="Test Tool_EPS"/>
+        <excelField name="测试阶段" type="Test Session" field="Test"/>
+        <excelField name="其他" type="Test Session" field="Others"/>
+    </importType>
+</fieldMapping>
